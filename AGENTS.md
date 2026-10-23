@@ -84,3 +84,10 @@ StoryForge 是 React + TypeScript + IndexedDB 的本地优先生产项目。用�
 5. 提交前运行 `git diff --check`；提交信息写明任务、边界与验证证据。
 
 完成意味着：产品边界正确、主路径可用、旧入口收口、三注册表与数据生命周期完整、刷新/失败可恢复、下游真实生效、有回归和必要 E2E、文档更新且工作树干净。PR、合并和交接按 `docs/COLLAB-WORKFLOW.md` 执行。
+
+## Cursor Cloud specific instructions
+
+- 与 CI 一致使用 Node.js 24。环境 `install` 把 Node.js 24.22.1 安装到 `/usr/local/bin`，并在 `install` 与 `start` 中把该目录放在 `PATH` 前面，使仓库命令使用这一版本。
+- 依赖只通过根目录锁文件执行 `npm ci`。Playwright Chromium 由同一 `install` 安装，供 `npm run test:e2e` 与 `npm run ci:e2e`。本地界面与内置作品可以在没有 API Key 时启动和游玩。
+- 开发服务器是 `npm run dev -- --host 0.0.0.0 --port 1111`。Vite 使用 `strictPort`，应用基路径是 `/storyforge/`。打开 `http://127.0.0.1:1111/storyforge/`。
+- 内置作品主路径：打开 `/storyforge/play/mist-harbor`，点击「开始故事」，逐句阅读，刷新后可用「继续游玩」恢复。手稿留在当前浏览器的 IndexedDB。
