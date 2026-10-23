@@ -35,6 +35,7 @@
 | 并行产品开发 | 产品 ID、共同基线、共享热点、各自 owner | 总纲 §12.1、`COLLAB-WORKFLOW.md` §2.1、产品契约和受影响注册表 | 其它产品内部实现；禁止多分支各改一套共享协议 |
 | 项目知识库、官网说明、用户更新日志或反馈入口 | 用户可见变化、产品 ID、当前入口与能力状态 | `website-docs/AGENTS.md`、对应 `website-docs/` 页面、`website-docs/updates/changelog.md`；反馈任务再读 `website-docs/feedback/`、`.github/ISSUE_TEMPLATE/` 和相关表单实现 | 内部工程文档正文、WPS 知识库；不得把分支内容误报为已上线 |
 | 历史追溯 | 任务 ID、commit、被删文件名 | `git log` / `git blame`；必要时 WPS 已过时归档 | 把旧文档重新当现行权威 |
+| Android 原生客户端 | `android-native/`、`docs/android/NATIVE-REWRITE-PLAN.md` | `docs/guides/CLIENT-DISTRIBUTION.md` 中的现有 Capacitor 客户端边界 | 把规划当成已实现能力，或改动 `android/` Capacitor 工程 |
 | 文档或宪法冲突 | 冲突条款和代码事实 | 总纲、`DOCUMENT-AUTHORITY.md`、CLAUDE 对应节和检查器 | 无关产品材料 |
 
 只有用户明确要求全仓审计、主干整合或总体接手报告时才扩大扫描；仍应先目录、指标、符号和状态，再读取命中片段。

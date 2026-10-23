@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryForge</string>
+    <string name="projects_title">Works</string>
+    <string name="projects_create">New</string>
+    <string name="projects_create_pending">Creating a work will write the workspace and the work separately in the MVP. This skeleton only keeps the sample.</string>
+    <string name="project_meta">%1$d chapters · %2$d words</string>
+    <string name="project_sample">Skeleton sample</string>
+    <string name="chapters_heading">Chapters</string>
+    <string name="chapter_status_outline">Outline</string>
+    <string name="chapter_status_draft">Draft</string>
+    <string name="chapter_status_revised">Revised</string>
+    <string name="chapter_status_polished">Polished</string>
+    <string name="chapter_status_final">Final</string>
+    <string name="editor_continue">Continue</string>
+    <string name="editor_continue_pending">Continuation will stream a candidate over HTTPS. This skeleton does not send a request or write model output into the chapter.</string>
+    <string name="editor_memory_only">Edits stay in memory for this visit and are not written back yet.</string>
+    <string name="editor_words">%1$d words</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_dynamic_color">Dynamic color</string>
+    <string name="settings_dynamic_color_body">On Android 12 and later, colors come from the wallpaper. Off uses the StoryForge teal scheme.</string>
+    <string name="settings_language_title">Language</string>
+    <string name="settings_language_body">Follows the system language. Simplified Chinese and English are available.</string>
+    <string name="settings_provider_title">Model</string>
+    <string name="settings_api_key">API key</string>
+    <string name="settings_api_key_support">Stays in this field only. It is not saved and is not part of a project backup.</string>
+    <string name="settings_model">Model name</string>
+    <string name="settings_backup_title">Backup</string>
+    <string name="settings_backup_body">Import and export will use the same JSON as the web app. v14 and v15 are accepted; new files are written as v15.</string>
+    <string name="nav_projects">Works</string>
+    <string name="nav_settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="missing_project">This work could not be found.</string>
+    <string name="missing_chapter">This chapter could not be found.</string>
+</resources>

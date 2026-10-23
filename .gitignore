@@ -4,6 +4,13 @@ dist-android/
 *.jks
 *.keystore
 android/local.properties
+android-native/.gradle/
+android-native/build/
+android-native/app/build/
+android-native/local.properties
+android-native/.idea/
+android-native/.cxx/
+android-native/captures/
 android/app/src/androidTest/assets/native-upgrade.js
 .DS_Store
 *.local

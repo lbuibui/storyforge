@@ -94,6 +94,7 @@
 ### 2.4 用户、维护与法律资料
 
 - `docs/guides/CLIENT-DISTRIBUTION.md`：L4 Windows/Android 客户端构建、GitHub 更新、签名与数据保持操作说明；候选实现和设备验收边界不等于正式发行。
+- `docs/android/NATIVE-REWRITE-PLAN.md`：L4 Android 原生客户端（Kotlin + Jetpack Compose）重写规划。只描述与 Web 能力的映射、MVP 和里程碑；不改变产品边界，不替代 Capacitor 客户端分发说明，也不表示原生客户端已经可以创作。
 
 - `website-docs/`：L4 官方项目知识库的唯一源目录，维护规则见 `website-docs/AGENTS.md`；面向用户提供产品指南、概念、Prompt、更新日志和反馈入口说明。相关变更进入 `main` 后由 `.github/workflows/deploy-docs.yml` 构建发布到 `https://docs.storyforge-lab.com/`。在线站点是仓库源文件的发布结果，不是可反向覆盖仓库的另一权威源。
 - `website-docs/updates/changelog.md`：面向用户的官网更新日志。用户可见入口、能力、限制或操作流程变化时，与对应知识库页面在同一交付中更新；它不替代根目录工程 `CHANGELOG.md`。

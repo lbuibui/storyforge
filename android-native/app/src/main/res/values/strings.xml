@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">故事熔炉</string>
+    <string name="projects_title">作品</string>
+    <string name="projects_create">新建</string>
+    <string name="projects_create_pending">新建作品会在 MVP 里分开写入工作区和作品。当前骨架只保留示例。</string>
+    <string name="project_meta">%1$d 章 · %2$d 字</string>
+    <string name="project_sample">骨架示例</string>
+    <string name="chapters_heading">章节</string>
+    <string name="chapter_status_outline">大纲</string>
+    <string name="chapter_status_draft">初稿</string>
+    <string name="chapter_status_revised">已修改</string>
+    <string name="chapter_status_polished">已润色</string>
+    <string name="chapter_status_final">定稿</string>
+    <string name="editor_continue">续写</string>
+    <string name="editor_continue_pending">续写会通过 HTTPS 流式返回候选。骨架不会发出请求，也不会把模型输出写进正文。</string>
+    <string name="editor_memory_only">编辑只留在这次打开的内存里，还不会写回本地库。</string>
+    <string name="editor_words">%1$d 字</string>
+    <string name="settings_title">设置</string>
+    <string name="settings_appearance">外观</string>
+    <string name="settings_theme_system">跟随系统</string>
+    <string name="settings_theme_light">浅色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_dynamic_color">动态取色</string>
+    <string name="settings_dynamic_color_body">Android 12 及以上使用壁纸取色。关闭后使用故事熔炉的青绿方案。</string>
+    <string name="settings_language_title">语言</string>
+    <string name="settings_language_body">跟随系统语言。目前提供简体中文和英文。</string>
+    <string name="settings_provider_title">模型</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_key_support">只显示在这个输入框里，不会保存，也不会进入作品备份。</string>
+    <string name="settings_model">模型名称</string>
+    <string name="settings_backup_title">备份</string>
+    <string name="settings_backup_body">导入和导出会使用与网页版相同的 JSON。当前接受 v14 和 v15，写出 v15。</string>
+    <string name="nav_projects">作品</string>
+    <string name="nav_settings">设置</string>
+    <string name="back">返回</string>
+    <string name="missing_project">没有找到这个作品。</string>
+    <string name="missing_chapter">没有找到这一章。</string>
+</resources>
